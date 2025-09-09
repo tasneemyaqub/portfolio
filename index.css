@@ -1,21 +1,82 @@
+html{scroll-behavior: smooth;}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Exo 2';
+}
+button{
+    font-family: 'Exo 2';
+}
+
 nav{
     display: flex;
     justify-content: space-between;
-    border: 2px solid;
     border-radius: 60px;
     padding: 10px;
 }
-
-ul{
+nav ul{
     display: flex;
     justify-content: space-between;
 }
 li{
     list-style: none;
+    border-radius: 20px;
+    padding: 5px;
 }
 li a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
 }
-html{ scroll-behavior: smooth;}
+nav li:hover {
+    transform: scale(1.08);
+    background-color: #ff00806e;
+}
+
+.home{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Orbitron';
+}
+.home img{
+    border-radius: 50px;
+}
+.resume{
+    background-color: #ff007f;
+    border-color: #ff007f;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: box-shadow 0.3s ease;
+    margin: 0px 10px 0px 0px;
+}
+.resume:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff8df5;
+}
+img{
+    border-radius: 50%;
+    height: 400px;
+}
+.social {
+    background-color: transparent;
+    border-color: #ff00806e;
+    border-radius: 20px;
+    height: 30px;
+    margin: 0px 1px;
+    transition: box-shadow 0.3s ease;
+}
+.social:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 10px #ff8df5;
+    background-color: #ff00806e;
+}
+button a {
+    text-decoration: none;
+    color: #ff0080bb;
+}
